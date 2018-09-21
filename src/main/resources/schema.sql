@@ -5,3 +5,9 @@ create table contacts (
   phoneNumber varchar(13),
   emailAddress varchar(30)
 );
+
+create table users (
+    id identity,
+    userName varchar(30) not null,
+    password varchar(30) not null
+);

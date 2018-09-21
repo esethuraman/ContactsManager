@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title> Registration page</title>
+        <link rel="stylesheet" th:href="@{/style.css}">
+    </head>
+    <body>
+        <h2> Contacts Manager - Register New User </h2>
+        <form method="POST">
+            <label for="userName"> User Name : </label>
+            <input type="text" name="userName">
+            <br/>
+
+            <label for="password"> Password : </label>
+            <input type="password" name="password">
+            <br/>
+
+            <input type="submit" value="Register" id="submitBtn">
+
+        </form>
+    </body>
+</html>
